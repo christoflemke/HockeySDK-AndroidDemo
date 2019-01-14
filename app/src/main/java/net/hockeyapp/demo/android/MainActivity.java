@@ -7,6 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+
 import net.hockeyapp.android.*;
 import net.hockeyapp.android.metrics.MetricsManager;
 import net.hockeyapp.android.utils.HockeyLog;
@@ -146,6 +148,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        EditText versionText = findViewById(R.id.Version);
+        versionText.setText(BuildConfig.VERSION_NAME);
 
         HockeyLog.setLogLevel(Log.VERBOSE);
     }
