@@ -9,7 +9,6 @@
     <string name="section_login">Login Manager</string>
 
     <string name="action_crash">Crash me</string>
-    <string name="action_update">Check for Updates</string>
     <string name="action_feedback">Send Feedback</string>
     <string name="action_feedback_screenshot">Enable Screenshot for Feedback</string>
     <string name="action_login_email">Login w/ email</string>

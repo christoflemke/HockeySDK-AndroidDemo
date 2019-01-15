@@ -5,10 +5,10 @@ android {
 
     defaultConfig {
         applicationId "net.hockeyapp.demo.android"
-        minSdkVersion 15
-        versionCode 3
+        minSdkVersion 16
+        versionCode 31
         targetSdkVersion 28
-        versionName "1.0.2"
+        versionName "1.0."+versionCode
         manifestPlaceholders = [HOCKEYAPP_APP_ID: hockeyapp_app_id, HOCKEYAPP_APP_SECRET: hockeyapp_app_secret]
     }
     buildTypes {
@@ -25,5 +25,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
 
     implementation 'net.hockeyapp.android:HockeySDK:5.1.1'
-
+    def appCenterSdkVersion = '1.11.0'
+    implementation "com.microsoft.appcenter:appcenter-push:${appCenterSdkVersion}"
+    implementation "com.microsoft.appcenter:appcenter-distribute:${appCenterSdkVersion}"
 }

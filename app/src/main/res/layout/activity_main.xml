@@ -14,104 +14,20 @@
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin">
 
-        <TextView
+        <Button
+            android:id="@+id/ha_update_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/section_crash_reporting"
-            />
+            android:text="Check for HA updates"/>
 
         <Button
-            android:id="@+id/crash_button"
+            android:id="@+id/ac_update_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/action_crash"
-            />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/section_update"
-            />
-
-        <Button
-            android:id="@+id/update_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/action_update"/>
-
-        <Button
-            android:id="@+id/button_update_custom"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/action_update_custom"
-            />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/section_feedback"
-            />
-
-        <Button
-            android:id="@+id/feedback_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/action_feedback"
-            />
-
-        <Button
-            android:id="@+id/button_feedback_screenshot"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/action_feedback_screenshot"
-            />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/section_login"
-            />
-
-        <Button
-            android:id="@+id/button_login_email"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/action_login_email"
-            />
-
-        <Button
-            android:id="@+id/button_login_full"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/action_login_full"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/section_metrics"
-            />
-
-        <Button
-            android:id="@+id/button_init_metrics"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/action_init_metrics"
-            />
-
-        <Button
-            android:id="@+id/button_enable_metrics"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/action_disable_metrics"/>
-
-        <Button
-            android:id="@+id/button_send_event"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Send custom event"/>
+            android:text="Check for AC updates"/>
 
         <EditText
-            android:id="@+id/Version"
+            android:id="@+id/label_version"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
